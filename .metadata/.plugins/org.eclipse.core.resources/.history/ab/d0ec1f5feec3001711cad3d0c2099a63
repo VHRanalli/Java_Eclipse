@@ -1,0 +1,10 @@
+package br.com.primeiros.comandos;
+
+public class DscontoConvenio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

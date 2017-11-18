@@ -1,0 +1,62 @@
+package br.com.graficos;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class MediaAluno extends JFrame {
+
+	public static void main(String[] args) {
+		// vamos fazer uma instancia da classe
+		// JFrame que nos ajuda a construir uma janela 
+
+		JFrame janela = new JFrame();
+		janela.setTitle("Media dos Alunos"); //Barra de Titulo
+		janela.setSize(400,500);//Tamanho da Janela
+		janela.setLocation(10, 10);//Localização em que a Janela vai abrir
+		
+		
+		// Vamos criar as labels para (nos outros) nossa janela
+		JLabel lblNome = new JLabel("Digite o Nome do Aluno:");
+		JLabel lblNota = new JLabel("Digite o Nota do Aluno");
+		
+		//Vamos criar as caixas de texto para inserir o nome do aluno e a nota 
+		JTextField txtNome = new JTextField();
+		JTextField txtNota = new JTextField();
+		
+		//vamos criar um botão para exibir o resultado
+		JButton btnResultado = new JButton("Resultado");
+		
+		
+		//Vamos zerar o layout da janela. Assim podemos colocar livremente
+		//os elementos na tela
+		janela.setLayout(null);
+		
+		//setando a posição das labels e txts na jframe
+		lblNome.setBounds(20,40,300,30);
+		janela.add(lblNome);
+		
+		txtNome.setBounds(20,72,300,30);
+		janela.add(txtNome);
+		
+		lblNota.setBounds(20,105,300,30);
+		janela.add(lblNota);
+		
+		txtNota.setBounds(20,137,100,30);
+		janela.add(txtNota);
+		
+		btnResultado.setBounds(160,240,120,30);
+		janela.add(btnResultado);
+		
+		
+		
+		janela.setVisible(true);//Exibir a Janela na Tela
+		janela.setDefaultCloseOperation(EXIT_ON_CLOSE);//fechar a janela clicando no botão fechar
+		
+		
+		
+		
+	}
+
+}

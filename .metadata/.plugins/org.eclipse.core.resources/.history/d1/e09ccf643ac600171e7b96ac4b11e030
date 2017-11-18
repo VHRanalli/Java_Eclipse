@@ -1,0 +1,22 @@
+package br.com.graficos;
+
+public class Laco1 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * A estrutura de repetição e dividida em quatro partes
+		 * 1 - Inicio da Variável
+		 * 2 - Condição para repetição 
+		 * 3 - Incrementação | Decrementação => ++ | -- | += | -=
+		 * 4 - O  corpo da estrutura de repetição
+		 */
+		
+		for(int i = 1; i <= 10; i++)
+			System.out.println(i);
+			
+		
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package br.com.graficos;
+
+import javax.swing.JFrame;
+
+public class MediaAluno extends JFrame {
+
+	public static void main(String[] args) {
+		// vamos fazer uma instancia da classe
+		// JFrame que nos ajuda a construir uma janela 
+
+		JFrame janela = new JFrame();
+		janela.setTitle("Media dos Alunos"); //Barra de Titulo
+		janela.setSize(400,500);//Tamanho da Janela
+		janela.setLocation(10, 10);//Localização em que a Janela vai abrir
+		janela.setVisible(true);//Exibir a Janela na Tela
+		janela.setDefaultCloseOperation(EXIT_ON_CLOSE);//fechar a janela clicando no botão fechar
+		
+		
+	}
+
+}

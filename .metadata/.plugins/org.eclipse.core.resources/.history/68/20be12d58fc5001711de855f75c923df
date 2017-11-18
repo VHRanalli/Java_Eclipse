@@ -1,0 +1,18 @@
+package br.com.java.duvidas;
+
+public class Igualdade {
+
+	public static void main(String[] args) {
+		// Atribuição
+		int i = 3 ;
+		
+		// Comparador de igualdade
+		if (i = 2){
+			System.out.println("i é igual a 2");
+			
+			}else{
+				System.out.println("i não e igual a 2");
+			}
+				}
+
+}
